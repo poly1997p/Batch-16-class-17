@@ -3,8 +3,109 @@
     width: 600px;
 }
  
-.ptag{
-    margin-top: 10px;
-    font-size: 19px;
+
+
+
+
+
+
+.p1{
+  
+  margin-left: 110px;
+    font-size:18px;
+    
+}
+/* 
+h1{
+    margin-top: 20px;
+   padding-left: 20px;
+} */
+
+img{
+    margin-bottom: 20px;
 }
 
+
+.hero{
+
+    background-image: url('img/cntimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    min-height: 100vh;
+    
+}
+
+.wl{
+    background-color: rgba(0,0,0,0.4);
+    display: inline-block;
+ margin-left: 40%;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 35px;
+    color: rgb(23, 194, 213);
+    overflow: hidden;
+    height: 250px;
+    width: 350px;
+    padding-top: 25px;
+}
+
+.button1{
+    margin-left: 50%;
+    font-size: 35px;
+    height: 40px;
+   
+}
+
+
+
+
+.input{
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 250px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.detail{
+    height: 100px;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    margin-left: 250px;
+}
+
+.brdr{
+    border: 1px solid black;
+}
+
+.cnttc{
+   padding-left: 20%;
+}
+.cnttcm{
+    padding-left: 20%;
+}   
+
+.bttn{
+   margin-left: 20%;
+}
+
+.fl{
+    padding-left: 15%;
+}
+.flww{
+    padding-left: 15%;
+}
+
+   /* card */
+
+.custom-m{
+margin: 10px;
+}
