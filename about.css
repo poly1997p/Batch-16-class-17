@@ -9,3 +9,41 @@ h1{
    
   display: inline-block;
 }
+/* =====popular destination====== */
+
+h3{
+  margin-top: 30px;
+  margin-left: 105px;
+  font-size: 32px;
+}
+.had{
+  margin-left: 50px;
+ padding-top: 30px;
+ 
+}
+/* ===custom-btn==== */
+.custom-btn{
+ height: 40px;
+ width: 100px;
+  margin-left: 500px;
+  border-radius: 2rem;
+  background-color: aliceblue;
+}
+
+.sppn{
+  margin-left: 20px;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.cus-btn{
+  margin-top: 30px;
+  border-radius: 2rem;
+  background-color: aliceblue;
+  margin-right: 15px;
+
+}
+
+.custom-color{
+  background-color: whitesmoke;
+ 
+}
