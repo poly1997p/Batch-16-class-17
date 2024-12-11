@@ -22,12 +22,11 @@ h3{
  
 }
 /* ===custom-btn==== */
+
+
 .custom-btn{
- height: 40px;
- width: 100px;
-  margin-left: 400px;
-  border-radius: 2rem;
-  background-color: aliceblue;
+border-radius: 2rem;
+background-color: aliceblue;
 }
 
 .sppn{
@@ -45,10 +44,30 @@ h3{
 
 .custom-color{
   background-color: whitesmoke;
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 100%;
  
 }
 /* ===horizontal line=== */
 .custome-line{
  border: 1px solid orange;
  background-color: var(#f2b209);
+}
+
+/* ===bali-save-btn=== */
+.bali-btn{
+  border-radius: 2rem;
+  background-color: aliceblue;
+ 
+  height: auto;
+  max-width: 90%;
+}
+
+.custom-con{
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 15px;
+  margin: 0;
+  max-width: 100%;
 }
