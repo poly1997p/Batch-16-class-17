@@ -47,3 +47,8 @@ h3{
   background-color: whitesmoke;
  
 }
+/* ===horizontal line=== */
+.custome-line{
+ border: 1px solid orange;
+ background-color: var(#f2b209);
+}
