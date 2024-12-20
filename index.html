@@ -1,237 +1,246 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bootstrap navbar</title>
-    <link href="style.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-      
-        .nav-link:hover{
-          background-color: rgb(149, 204, 225);
-         border-radius: 2rem;
-        }
-     
-        
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>bootstrap navbar</title>
+  <link href="style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .nav-link:hover {
+      background-color: rgb(149, 204, 225);
+      border-radius: 2rem;
+    }
+  </style>
 </head>
+
 <body>
 
-    <nav class="navbar navbar-expand-lg  bg-info">
-        <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg  bg-info">
+    <div class="container-fluid">
 
-                 <!-- logo -->
-          <a class="navbar-brand" href="#"><img src="img/travel.jpeg " ><br><b style="font-size: 15px; ">Travel Agency</b></a> 
-          
-
-                   <!-- toggle button -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-         
-                  <!-- menubar -->
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- logo -->
+      <a class="navbar-brand" href="#"><img src="img/travel.jpeg "><br><b style="font-size: 15px; ">Travel
+          Agency</b></a>
 
 
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="about.html">About us</a>
-              
-              </li>
-           
-                      <!-- dropdown 1 -->
-              <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Destinations</a>
+      <!-- toggle button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-              <ul class="dropdown-menu">
-               <li><a class="dropdown-item" href="populardes.html">Popular Destinations</a></li>
-               <li><a class="dropdown-item" href="#">Domestic Trips</a></li>
-               <li><a class="dropdown-item" href="#">International Trips</a></li>
-               <li><a class="dropdown-item" href="#">Mountains</a></li>
-              </ul>
 
-              </li> 
+      <!-- menubar -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                      <!-- dropdown 2 -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Transport Options</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Flights</a></li>
-                <li><a class="dropdown-item" href="#">Train Tickets</a></li>
-                <li><a class="dropdown-item" href="#">Bus services</a></li>
-              </ul>
 
-              </li>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="about.html">About us</a>
 
-                    <!-- dropdown 3 -->
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 Tours & Packages
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Budget-Friendly Tours</a></li>
-                  <li><a class="dropdown-item" href="#">Luxury Tours</a></li>
-                  <li><a class="dropdown-item" href="#">Group Packages</a></li>
-                  <li><a class="dropdown-item" href="#">Family Tours</a></li>
-                  <li><a class="dropdown-item" href="#">Adventure Trips</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Travel Tips</a></li>
-                </ul>
-              </li>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link " href="contact.html" aria-disabled="false">Contact Us</a>
-              </li>
+          <!-- dropdown 1 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Destinations</a>
+
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="populardes.html">Popular Destinations</a></li>
+              <li><a class="dropdown-item" href="#">Domestic Trips</a></li>
+              <li><a class="dropdown-item" href="#">International Trips</a></li>
+              <li><a class="dropdown-item" href="#">Mountains</a></li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Destinations,Attraction..." aria-label="Search">
-              <button class="btn btn-outline-info" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
 
-      <p class="ptag mt-3"  style="text-align: center; font-size: 20px; color: green;"><b>It's time to travel<br>let's enjoy</b></p>
+          </li>
 
-                <!-- slide -->
-        <div id="carouselExample" class="carousel slide container-fluid mt-5 " >
-        <div class="carousel-inner ">
+          <!-- dropdown 2 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Transport Options</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Flights</a></li>
+              <li><a class="dropdown-item" href="#">Train Tickets</a></li>
+              <li><a class="dropdown-item" href="#">Bus services</a></li>
+            </ul>
 
-          <div class="carousel-item">
-            <img src="img/slide5.jpg" height="500" class="d-block w-100" alt="...">
-          </div>
+          </li>
 
-          <div class="carousel-item active">
-          <img src="img/slide11.jpg" height="500" class="d-block w-100" alt="...">
-        </div>
-        
-          <div class="carousel-item">
-            <img src="img/slide8.jpg" height="500" class="d-block w-100" alt="...">
-          </div>
+          <!-- dropdown 3 -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tours & Packages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Budget-Friendly Tours</a></li>
+              <li><a class="dropdown-item" href="#">Luxury Tours</a></li>
+              <li><a class="dropdown-item" href="#">Group Packages</a></li>
+              <li><a class="dropdown-item" href="#">Family Tours</a></li>
+              <li><a class="dropdown-item" href="#">Adventure Trips</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Travel Tips</a></li>
+            </ul>
+          </li>
 
-          <div class="carousel-item">
-            <img src="img/slide6.avif" height="500" class="d-block w-100" alt="...">
-          </div>
-
-          <div class="carousel-item  ">
-            <img src="img/slide1.jpg" height="500"  class="d-block w-100" alt="...">
-          </div>
-
-          <div class="carousel-item">
-            <img src="img/slide2.jpg" height="500" class="d-block w-100" alt="...">
-          </div>
-
-          <div class="carousel-item">
-            <img src="img/slide3.jpg" height="500" class="d-block w-100" alt="...">
-          </div>
-
-          <div class="carousel-item">
-            <img src="img/slide4.jpg" height="500" class="d-block w-100" alt="...">
-          </div>
-
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+          <li class="nav-item">
+            <a class="nav-link " href="contact.html" aria-disabled="false">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Destinations,Attraction..." aria-label="Search">
+          <button class="btn btn-outline-info" type="submit">Search</button>
+        </form>
       </div>
-                 <!-- card-1 -->
-                                <!-- 1st-section -->
-       <section class="container mt-5">  
-        <h3>Most beautiful islands of Thailand</h3>  
+    </div>
+  </nav>
 
-       <div class="row">           
-      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m"  style="width: 310px;">
+  <p class="ptag mt-3" style="text-align: center; font-size: 20px; color: green;"><b>It's time to travel<br>let's
+      enjoy</b></p>
+
+  <!-- slide -->
+  <div id="carouselExample" class="carousel slide container-fluid mt-5 ">
+    <div class="carousel-inner ">
+
+      <div class="carousel-item">
+        <img src="img/slide5.jpg" height="500" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item active">
+        <img src="img/slide11.jpg" height="500" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/slide8.jpg" height="500" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/slide6.avif" height="500" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item  ">
+        <img src="img/slide1.jpg" height="500" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/slide2.jpg" height="500" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/slide3.jpg" height="500" class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/slide4.jpg" height="500" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- card-1 -->
+  <!-- 1st-section -->
+  <section class="container mt-5">
+    <h3>Most beautiful islands of Thailand</h3>
+
+    <div class="row">
+      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m">
         <img src="img/puketbng1.avif" height="200" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Phi phi Delights 6days</h5>
+          <h5 class="card-title customm-text">Phi phi Delights 6days</h5>
           <p class="card-text">Starting from<br>20000tk <del>25000tk</del></p>
-          <a href="#" class="btn btn-primary">Book Now</a>
+          <a href="#" class="btn btn-primary custom-button">Book Now</a>
         </div>
       </div>
 
-      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m" style="width: 310px;">
+      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m">
         <img src="img/phi2.jpg" height="200" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Phi phi Delights 4days</h5>
+          <h5 class="card-title customm-text">Phi phi Delights 4days</h5>
           <p class="card-text">Starting from<br>10000tk <del>15000tk</del></p>
-          <a href="#" class="btn btn-primary">Book Now</a>
+          <a href="#" class="btn btn-primary custom-button">Book Now</a>
         </div>
-      </div>           
-              
-      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m"  style="width: 310px;">
+      </div>
+
+      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m">
         <img src="img/phuket3.avif" height="200" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Phuket Delights 9days</h5>
+          <h5 class="card-title customm-text">Phuket Delights 9days</h5>
           <p class="card-text">Starting from<br>25000tk <del>30000tk</del></p>
-          <a href="#" class="btn btn-primary">Book Now</a>
+          <a href="#" class="btn btn-primary custom-button">Book Now</a>
         </div>
       </div>
 
-      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m"  style="width: 310px;">
+      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m">
         <img src="img/phuket4.avif" height="200" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Phuket Delights 2days</h5>
+          <h5 class="card-title customm-text">Phuket Delights 2days</h5>
           <p class="card-text">Starting from<br>8000tk <del>10000tk</del></p>
-          <a href="#" class="btn btn-primary">Book Now</a>
+          <a href="#" class="btn btn-primary custom-button">Book Now</a>
         </div>
       </div>
     </div>
-    </section>
-                      <!-- 2nd-section -->
-     <section class="container mt-5">
-      <h3>Top Attractions In Dubai</h3>
-      <div class="row">
-      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m"  style="width: 310px;">
+  </section>
+  <!-- 2nd-section -->
+  <section class="container mt-5">
+    <h3>Top Attractions In Dubai</h3>
+    <div class="row">
+      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m">
         <img src="img/dubai.avif" height="200px" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">2 Night 3 Days Package From dubai</h5>
+          <h5 class="card-title customm-text">2 Night 3 Days Package From dubai</h5>
           <p class="card-text">Starting from<br>8000tk <del>10000tk</del></p>
-          <a href="#" class="btn btn-primary">Book Now</a>
+          <a href="#" class="btn btn-primary custom-button">Book Now</a>
         </div>
       </div>
 
 
-      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m"  style="width: 310px;">
+      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m">
         <img src="img/global.jpg" height="200px" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">4 Night 5 Days Package From dubai</h5>
+          <h5 class="card-title customm-text">4 Night 5 Days Package From dubai</h5>
           <p class="card-text">Starting from<br>10000tk <del>12000tk</del></p>
-          <a href="#" class="btn btn-primary">Book Now</a>
+          <a href="#" class="btn btn-primary custom-button">Book Now</a>
         </div>
       </div>
 
-      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m"  style="width: 310px;">
+      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m">
         <img src="img/aqrium.jpg" height="200px" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">6 Night 7 Days Package From dubai</h5>
+          <h5 class="card-title customm-text">6 Night 7 Days Package From dubai</h5>
           <p class="card-text">Starting from<br>1500tk <del>17000tk</del></p>
-          <a href="#" class="btn btn-primary">Book Now</a>
+          <a href="#" class="btn btn-primary custom-button">Book Now</a>
         </div>
       </div>
 
-      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m"  style="width: 310px;">
+      <div class="card col-sm-12 col-md-3 col-lg-3 custom-m">
         <img src="img/desert.webp" height="200px" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">8 Night 9 Days Package From dubai</h5>
+          <h5 class="card-title customm-text">8 Night 9 Days Package From dubai</h5>
           <p class="card-text">Starting from<br>18000tk <del>20000tk</del></p>
-          <a href="#" class="btn btn-primary">Book Now</a>
+          <a href="#" class="btn btn-primary custom-button">Book Now</a>
         </div>
       </div>
     </div>
-    </section>
-  
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

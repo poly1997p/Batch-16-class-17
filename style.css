@@ -108,5 +108,212 @@ img{
 
 .custom-m{
 margin: 10px;
+width: 310px !important;
+}
+/* ====card-responsive-start==== */
+
+@media screen and (max-width: 1400px){
+    .custom-m{
+        width: 265px !important;
+    }
 }
 
+
+@media screen and (max-width: 1200px){
+    .custom-m{
+        width: 220px !important;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .custom-m{
+        width: 160px !important;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .custom-m{
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .custom-m{
+       margin: 8px;
+    }
+}
+
+@media screen and (max-width: 532px){
+    .custom-m{
+       margin: 6px;
+    }
+}
+
+@media screen and (max-width: 524px){
+    .custom-m{
+       margin: 5px;
+       font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .custom-m{
+       margin: 3px;
+       font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 512px){
+    .custom-m{
+      width: 245px !important; 
+       font-size: 14px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 502px){
+    .custom-m{
+      width: 235px !important; 
+       font-size: 10px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 482px){
+    .custom-m{
+      width: 225px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 462px){
+    .custom-m{
+      width: 215px !important; 
+       font-size: 15px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 442px){
+    .custom-m{
+      width: 209px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 430px){
+    .custom-m{
+      width: 199px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .custom-m{
+      width: 189px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .custom-m{
+      width: 180px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 372px){
+    .custom-m{
+      width: 175px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 362px){
+    .custom-m{
+      width: 165px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 342px){
+    .custom-m{
+      width: 157px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 326px){
+    .custom-m{
+      width: 149px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 13px;
+    }
+    .custom-button{
+       height: 45px;
+       width: 100px;
+       padding-bottom: 3px;
+    }
+}
+@media screen and (max-width: 310px){
+    .custom-m{
+      width: 139px !important; 
+       font-size: 13px;
+    }
+    .customm-text{
+        font-size: 13px;
+    }
+    .custom-button{
+       height: 45px;
+       width: 100px;
+       padding-bottom: 3px;
+    }
+}
+@media screen and (max-width: 310px){
+    .custom-m{
+      width: 299px !important; 
+       font-size: 14px;
+    }
+    .customm-text{
+        font-size: 14px;
+    }
+    .custom-button{
+       height: 45px;
+       width: 100px;
+       padding-bottom: 3px;
+    }
+}
+/* ====card-responsive-end==== */

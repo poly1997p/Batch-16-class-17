@@ -69,8 +69,17 @@ background-color: aliceblue;
   box-sizing: border-box;
  
   margin: 0;
-  max-width: 100%;
-  background-color: lightgray;
+ 
+}
+
+.custom-baali{
+width: 40%;
+
+}
+
+.custom-saave{
+width: 60%;
+
 }
 /* ===bali-img=== */
 .cap-img{
