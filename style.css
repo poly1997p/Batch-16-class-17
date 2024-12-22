@@ -3,16 +3,11 @@
     width: 600px;
 }
  
-
-
-
-
-
-
 .p1{
   
   margin-left: 110px;
     font-size:18px;
+    overflow: hidden;
     
 }
 /* 
@@ -49,6 +44,7 @@ img{
     height: 250px;
     width: 350px;
     padding-top: 25px;
+    box-sizing: border-box;
 }
 
 .button1{
@@ -317,3 +313,24 @@ width: 310px !important;
     }
 }
 /* ====card-responsive-end==== */
+
+.custom-height{
+    height: 250px;
+}
+
+/* ====footer-responsive===== */
+@media screen and (max-width: 768px){
+    .custom-height{
+        height: 450px;
+    }
+}
+@media screen and (max-width: 576px){
+    .custom-height{
+        height: 550px;
+    }
+}
+@media screen and (max-width: 331px){
+    .custom-height{
+        height: 630px;
+    }
+}
