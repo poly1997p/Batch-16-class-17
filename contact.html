@@ -10,34 +10,123 @@
 </head>
 <body>
    
-    <a href="index.html"><img src="img/travel.jpeg" height="40" width="100"></a>
+         <!-- =====nav-bar(start)=== -->
+         <nav class="navbar navbar-expand-lg  bg-light">
+            <div class="container-fluid">
+    
+                     <!-- logo -->
+              <a class="navbar-brand" href="#"><img src="img/travel.jpeg " ><br><b style="font-size: 15px; ">Travel Agency</b></a> 
+              
+    
+                       <!-- toggle button -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+             
+                      <!-- menubar -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+    
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="about.html">About us</a>
+                  
+                  </li>
+               
+                          <!-- dropdown 1 -->
+                  <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Destinations</a>
+    
+                  <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="populardes.html">Popular Destinations</a></li>
+                   <li><a class="dropdown-item" href="#">Domestic Trips</a></li>
+                   <li><a class="dropdown-item" href="#">International Trips</a></li>
+                   <li><a class="dropdown-item" href="#">Mountains</a></li>
+                  </ul>
+    
+                  </li> 
+    
+                          <!-- dropdown 2 -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Transport Options</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Flights</a></li>
+                    <li><a class="dropdown-item" href="#">Train Tickets</a></li>
+                    <li><a class="dropdown-item" href="#">Bus services</a></li>
+                  </ul>
+    
+    
+    
+    
+                  </li>
+    
+                        <!-- dropdown 3 -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     Tours & Packages
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Budget-Friendly Tours</a></li>
+                      <li><a class="dropdown-item" href="#">Luxury Tours</a></li>
+                      <li><a class="dropdown-item" href="#">Group Packages</a></li>
+                      <li><a class="dropdown-item" href="#">Family Tours</a></li>
+                      <li><a class="dropdown-item" href="#">Adventure Trips</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Travel Tips</a></li>
+                    </ul>
+                  </li>
+    
+                  <li class="nav-item">
+                    <a class="nav-link " href="contact.html" aria-disabled="false">Contact Us</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Destinations,Attraction..." aria-label="Search">
+                  <button class="btn btn-outline-info" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+         <!-- =======nav-(end)======== -->
     <div>
                      <!-- 1st div -->
-       <div class="hero container" >
+       <div class="hero container-fluid" >
                 <br>
+        <div class="row"> 
+            <div class="col-sm-12 col-md-12 col-lg-12">       
         <p class="p1">We’re here to help you plan your perfect trip!<br>
             Have questions, need assistance, or ready to plan your dream trip? Reach out to us—we’d love to hear from you!
             </p >
+           </div>
+           <div class="col-sm-12 col-md-12 col-lg-12">
         <p class="wl">
             welcome to world<br>
             It's time to travel <br>
             Let's enjoy
         </p>
-<button class="btn btn-outline-info button1" type="button">
-Book Place
-</button>
+         </div>
+       </div>
+       <div class="col-12">
+      <button class="btn btn-outline-info button1" type="button">Book Place</button>
+     </div>
 
-        </div>
+    </div>
              <!-- 2nd div -->
         <div class="container ">      
         <div class="row mt-5">
-        <div class="bg-light col-sm-12 col-md-6 "><img src="img/book1.jpg" height="500px" width="600px"></div> 
-        <div class="bg-light col-sm-12 col-md-6 brdr ">
-            <input class="input" type="text" placeholder="Where to" required>
-            <input class="input" type="text" placeholder="How many" required>
-            <input class="input" type="date"  required>
-            <input class="input detail" type="text" placeholder="Enter Your Details" required>
-            <button class="btn btn-outline-warning button" role="button">Book Now</button>
+        <div class="bg-light col-12 col-sm-12 col-md-6 col-lg-6"><img src="img/book1.jpg" style="width: 95%; height:500px; display: block;"></div> 
+        <div class="bg-light col-12 col-sm-12 col-md-6 col-lg-6 brdr ">
+            <input class="input ps-5" type="text" placeholder="Where to" required>
+            <input class="input ps-5" type="text" placeholder="How many" required>
+            <input class="input ps-5" type="date"  required>
+            <input class="input detail ps-5" type="text" placeholder="Enter Your Details" required>
+            <div class="col-12  ">
+            <button class="btn btn-outline-warning button " role="button">Book Now</button>
+          </div>
             </div>
            </div>
            </div>
@@ -47,20 +136,20 @@ Book Place
      <div class="container-fluid">
        <div class="row mt-5">
             <!-- part-1 about us -->
-       <div class="bg-dark text-light col-sm-12 col-md-4"><h5 class="mt-2">About Us</h5>
+       <div class="bg-dark text-light col-12 col-sm-6 col-md-4"><h5 class="mt-2">About Us</h5>
         <p>We are a trusted travel agency providing amazing travel experiences. Explore the world with us!</p></div>
                  <!-- part-2 contact us -->
-       <div class="bg-dark  text-light col-sm-12 col-md-4"><h5 class="mt-2 cnttc">Contact Us</h5>
-        <p class="cnttcm"><strong>Address:</strong> 12/A uttara,Dhaka</p>
-        <p class="cnttcm"><strong>Phone:013000000002</strong></p>
-        <p class="cnttcm"><strong>Email:</strong>info@travelagency.com</p>
+       <div class="bg-dark  text-light col-12 col-sm-6 col-md-4"><h5 class="mt-2 cnttc">Contact Us</h5>
+        <b class="cnttcm"><strong>Address:</strong> 12/A uttara,Dhaka</b>
+        <b class="cnttcm"><strong>Phone:013000000002</strong></b>
+        <b class="cnttcm"><strong>Email:</strong>info@travelagency.com</b>
         <a href="contact.html" class="btn bttn btn-primary btn-sm">Get in Touch</a>
       </div>
                   <!-- part-3 social media links -->
-       <div class="bg-dark text-light col-sm-12 col-md-4"><h5 class="mt-2 fl">Follow Us:</h5>
+       <div class="bg-dark text-light col-12 col-sm-6 col-md-4"><h5 class="mt-2 fl">Follow Us:</h5>
         <a href="#" class="text-light flww" ><i class="bi bi-facebook"></i> Facebook</a><br>
-        <a href="#" class="text-light flww"><i class="bi bi-instagram"></i> Instagram</a><br>
-        <a href="#" class="text-light flww"><i class="bi bi-twitter"></i> Twitter</a>
+        <a href="#" class="text-light  flww"><i class="bi bi-instagram"></i> Instagram</a><br>
+        <a href="#" class="text-light  flww"><i class="bi bi-twitter"></i> Twitter</a>
        </div>
        </div>
        </div>      
