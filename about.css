@@ -50,9 +50,12 @@ background-color: aliceblue;
  
 }
 /* ===horizontal line=== */
-.custome-line{
- border: 1px solid orange;
- background-color: var(#f2b209);
+
+
+.custom-hr{
+  height: 2px;
+  border: none;
+  background-color: orange;
 }
 
 /* ===bali-save-btn=== */
@@ -93,4 +96,18 @@ width: 60%;
 .custom-great{
   font-weight: bold;
   font-size: 15px;
+}
+/* ===bali-responsive=== */
+@media screen and (max-width: 768px){
+  .custom-div{
+    margin-bottom: 15px;
+   
+  }
+}
+.custom-cat{
+  background-color:#F2ECF9;
+}
+.cat-custom{
+  padding: 20px;
+  margin-left: 25px;
 }

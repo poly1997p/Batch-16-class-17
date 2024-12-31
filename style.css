@@ -31,16 +31,8 @@ img{
     min-height: 100vh;
     width: 100%;
 }
-/* ====background-respoinsive-start==== */
-@media screen and (max-width: 830px) {
-  .hero{
-    background-image: url(''img/small-cntimg.jpg''); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-  }
-}
+
+
 
 .wl{
     background-color: rgba(0,0,0,0.4);
@@ -147,13 +139,19 @@ img{
   }
 /* ===wl-responsive-end=== */
 .button1{
-    margin-left: 50%;
-    font-size: 35px;
-    height: 40px;
+    margin-left: 46%;
+    font-size: 15px;
+    background-color: rgb(127, 177, 221);
+    padding: 10px;
+   border-radius: 20px;
    
 }
-
-
+/* ===for-button-responsive=== */
+@media screen and (max-width: 389px) {
+  .hero{
+    height: 700px !important;
+  }
+}
 
 
 .input{
@@ -186,7 +184,20 @@ img{
     box-sizing: border-box;
     margin: 0px;
 }
+/* ====custom-form-responsive=== */
+@media screen and (max-width: 768px){
+  .custom-form{
+    margin-bottom: 8px;
+   
+  }
+}
 
+@media screen and (max-width: 768px){
+  .form{
+    height: 450px;
+  }
+}
+/* =====form-responsive-end==== */
 .cnttc{
    padding-left: 20%;
 }
